@@ -1,7 +1,12 @@
 Frog::Application.routes.draw do
+ root :to => "Hi#index"
+
   get "hi/index"
 
   get "frog/index"
+
+
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
